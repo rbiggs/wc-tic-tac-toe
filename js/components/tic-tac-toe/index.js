@@ -46,7 +46,6 @@ class TicTacToe extends LitElement {
       xIsNext: !this.state.xIsNext,
     }
     this.state.history[0] = {squares}
-    this.update()
   }
   jumpTo(step) {
     this.state.stepNumber = step

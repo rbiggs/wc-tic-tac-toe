@@ -1,7 +1,7 @@
 import {css} from 'https://unpkg.com/lit-element?module'
 
 export const styleComponent = () => css`
-  body {
+  .game {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
   }
